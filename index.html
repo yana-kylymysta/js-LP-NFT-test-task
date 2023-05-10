@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NFT</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <main class="main">
+        <header class="header">
+            <div class="container">
+                <h1 class="header__title _title">What is NFT?</h1>
+                <p class="header__text">Non-fungible tokens, often referred to as NFTs, are blockchain-based tokens that each represent a unique asset like a piece of art, digital content, or media. </p>
+            </div>
+        </header>
+        <section class="about">
+            <div class="about__block about__block-left">
+                <div class="about__info">
+                    <h4 class="about__title">FOR music connoisseurs and collectors of contemporary art</h4>
+                    <ul class="about__list">
+                        <li>Protected digital asset to invest in.</li>
+                        <li>NFTs allow for the support of authoring projects and the development of a crypto-art community.</li>
+                        <li>Digital asset that greatly appreciates over time.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about__block about__block-right">
+                <div class="about__info">
+                    <h4 class="about__title">FOR brands</h4>
+                    <ul class="about__list">
+                        <li>Trendy way of communication with audience.</li>
+                        <li>Unique brand experiences that inspires engagement.</li>
+                        <li>Efficient digital assets to invest in.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <sections class="dropdown">
+            <div class="container">
+                <article class="dropdown__item" data-block="silver" >
+                    <div class="dropdown__header dropdown__block-container">
+                        <h3 class="dropdown__title _title">Silver NFT</h3>
+                        <p class="dropdown__subtitle">Available for purchase: <span class="dropdown__amount"></span> NFT</p>
+                        <div class="dropdown__hider">
+                            <label class="dropdown__switch">
+                                <input type="checkbox" class="switch__input" onchange="hideSoldPosters(this)">
+                                <span class="switch__slider"></span>
+                            </label>
+                            <div class="dropdawn__filter">
+                                Hide sold posters
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown__box">
+                        <div class="dropdown__description dropdown__block-container">
+                            <p>You get:</p>
+                            <p>- NFT poster + sponsor logo on web page</p>
+                        </div>
+                        <div class="dropdown__purchases dropdown__block-container"></div>
+                    </div>
+                </article>
+                <article class="dropdown__item" data-block="gold">
+                    <div class="dropdown__header dropdown__block-container">
+                        <h3 class="dropdown__title _title">Gold NFT</h3>
+                        <p class="dropdown__subtitle">Available for purchase: <span class="dropdown__amount"></span> NFT</p>
+                        <div class="dropdown__hider">
+                            <label class="dropdown__switch">
+                                <input type="checkbox" class="switch__input" onchange="hideSoldPosters(this)">
+                                <span class="switch__slider"></span>
+                            </label>
+                            <div class="dropdawn__filter">
+                                Hide sold posters
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown__box">
+                        <div class="dropdown__description dropdown__block-container">
+                            <p>You get:</p>
+                            <p> - NFT poster + sponsor logo on web page</p>
+                            <p> - Invitation for 2 people to Zurich concert pre-party at Kongresshaus LUX Restaurant & Bar</p>
+                        </div>
+                        <div class="dropdown__purchases dropdown__block-container"></div>
+                    </div>
+                </article>
+                <article class="dropdown__item" data-block="platinum" >
+                    <div class="dropdown__header dropdown__block-container">
+                        <h3 class="dropdown__title _title">Platinum NFT</h3>
+                        <p class="dropdown__subtitle">Available for purchase: <span class="dropdown__amount"></span> NFT</p>
+                        <div class="dropdown__hider">
+                            <label class="dropdown__switch">
+                                <input type="checkbox" class="switch__input" onchange="hideSoldPosters(this)">
+                                <span class="switch__slider"></span>
+                            </label>
+                            <div class="dropdawn__filter">
+                                Hide sold posters
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown__box">
+                        <div class="dropdown__description dropdown__block-container">
+                            <p>You get:</p>
+                            <p>- NFT poster + sponsor logo on web page</p>
+                            <p>- NFT poster + sponsor logo on web page</p>
+                        </div>
+                        <div class="dropdown__purchases dropdown__block-container"></div>
+                    </div>
+                </article>
+            </div>
+        </sections>
+        <div class="popUp"></div>
+    </main>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="./js/jquery.maskedinput.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>

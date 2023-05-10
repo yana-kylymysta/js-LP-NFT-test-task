@@ -1,0 +1,98 @@
+{
+ "silver": [
+        { "id": 1, 
+          "name": "Alexey Botvinov",
+          "img": "./images/nft/botvinov-1.jpg",
+          "price": "50₣"
+          },
+        {"id": 2,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-2.jpg",
+         "price": "50₣"
+         },
+        {"id": 3,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-3.jpg",
+         "price": "50₣"
+         },
+        {"id": 4,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-4.jpg",
+         "price": "50₣"
+         },
+        {"id": 5,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-5.jpg",
+         "price": "50₣"
+         },
+        {"id": 6,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-6.jpg",
+         "price": "50₣"
+         },
+        {"id": 7,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-7.jpg",
+         "price": "50₣"
+         },
+        {"id": 8,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-1.jpg",
+         "price": "50₣"
+         },
+        {"id": 9,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-2.jpg",
+         "price": "50₣"
+         },
+        {"id": 10,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-3.jpg",
+         "price": "50₣"
+         }
+    ],
+  "gold": [
+         { "id": 11, 
+          "name": "Alexey Botvinov",
+          "img": "./images/nft/botvinov-1.jpg",
+          "price": "500₣"
+          },
+        {"id": 12,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-2.jpg",
+         "price": "500₣"
+         },
+        {"id": 13,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-3.jpg",
+         "price": "500₣"
+         },
+        {"id": 14,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-4.jpg",
+         "price": "500₣"
+         },
+        {"id": 15,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-5.jpg",
+         "price": "500₣"
+         }
+       ],
+    "platinum": [
+        { "id": 21, 
+          "name": "Alexey Botvinov",
+          "img": "./images/nft/botvinov-1.jpg",
+          "price": "700₣"
+          },
+        {"id": 22,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-2.jpg",
+         "price": "700₣"
+         },
+        {"id": 23,
+         "name": "Alexey Botvinov",
+         "img": "./images/nft/botvinov-3.jpg",
+         "price": "700₣"
+         }
+    ]
+}
